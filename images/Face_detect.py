@@ -34,9 +34,9 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread('temp_teju.jpg')  # Replace with your image path
+image = cv2.imread('epi.jpg')  # Replace with your image path
 
-image=cv2.resize(image,(250,308))
+image=cv2.resize(image,(660,295))
 # Save or display the modified image
-cv2.imwrite('temp.png', image)
+cv2.imwrite('temp.jpg', image)
 
